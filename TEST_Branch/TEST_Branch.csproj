@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="aa.aspx" />
     <Content Include="bb.aspx" />
+    <Content Include="cc.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,13 @@
     </Compile>
     <Compile Include="bb.aspx.designer.cs">
       <DependentUpon>bb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cc.aspx.cs">
+      <DependentUpon>cc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cc.aspx.designer.cs">
+      <DependentUpon>cc.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
